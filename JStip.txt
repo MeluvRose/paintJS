@@ -1,0 +1,9 @@
+javascript로 작업할 땐 html의 id
+css로 작업할 땐 html의 class를
+==> 무엇으로 해도 상관은 없지만 각각 정해두는 것이 좋다(통일성 있게)
+
+* 	html: 5
+	div.controls_colors(*개수) : <div class="controls_colors"></div>
+	div.controls__btns>button#jsMode+button#jsSave : <div class="controls__btns"><button id="jsMode"></button><button id="jsSave"></button></div>
+
+* ctrl + k ctrl + f : 자동 정렬
