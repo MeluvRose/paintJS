@@ -7,3 +7,30 @@ css로 작업할 땐 html의 class를
 	div.controls__btns>button#jsMode+button#jsSave : <div class="controls__btns"><button id="jsMode"></button><button id="jsSave"></button></div>
 
 * ctrl + k ctrl + f : 자동 정렬
+
+- clientX,Y : 윈도우 전체(스크린)의 범위 내에서 마우스 위치 값
+  offsetX,Y : 설정한 공간(캔버스)의 범위 내에서 마우스 위치 값
+
+* canvas : 'context'(이 요소 안에 픽셀에 접근할 수 있는 값이 있음)가 존재한다.
+
+- 기본적으로 캔버스를 CSS로 만드는 데, 캔버스를 pixel을 다룰 수 있는 element로 만드는 것이다. 
+  따라서 이 JS에서 이를 다루기 위해서는 element에 (실제 픽셀)사이즈를 지정(width, height)해주어야 한다.
+
+- path = 선
+  lineTo() : path의 이전 위치에서 지금 위치까지의 선을 생성
+  stroke : 생성한 선을 그음
+
+* canvas에 관한 참고 자료는 MDN의 'CanvasRenderingContext2D'(canvas api)를 참고 
+
+- Array.from(Object) : Object로 부터 Array를 생성한다.
+
+* 언제 variable를 만들어서 사용해야 하는가? : 반복이 시작되면 만드는데, 서로 다른 곳에 동일한 값을 적용하게 될 때
+
+* 보통 인터넷 창에서 마우스 우클릭을 하게 되면 나오는 메뉴를 'Context Menu'라고 부르는데
+
+* download는 anchor("a")태그(<a href> or <a download>)의 attribute이다. (Html)
+
+-	'링크.href = 이미지(URL);'
+ 	'링크.download = "파일명";'
+
+Wetube
